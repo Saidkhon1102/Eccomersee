@@ -17,7 +17,7 @@ function Register() {
     register(firstName, laststName, email, password);
   };
   return (
-    <section className="grid place-items-center w-full max-w-105 h-full max-h-130 mx-auto my-auto p-2 rounded-2xl bg-[#00e6088b]">
+    <section className="grid place-items-center w-full max-w-105 h-full max-h-130 mx-auto my-auto p-2 rounded-2xl bg-[#292c298b]">
       <div className="w-full flex flex-col items-center">
         <h3 className="text-center font-bold text-3xl">Register</h3>
         <form onSubmit={handleSubmit} action="" className="w-full max-w-96">
@@ -26,7 +26,7 @@ function Register() {
           <FormInput label="Your Email:" name="email" type="email" />
           <FormInput label="New Password:" name="password" type="password" />
           <div className="my-10 flex justify-center">
-            <button className=" btn btn-secondary w-full">Register</button>
+            <button className=" btn btn-secondary w-full italic ">Register</button>
           </div>
         </form>
         <div>

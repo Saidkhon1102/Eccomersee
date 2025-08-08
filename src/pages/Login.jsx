@@ -16,14 +16,14 @@ function Login() {
     login(email, password);
   };
   return (
-    <section className="grid place-items-center w-full max-w-105 h-full max-h-100 mx-auto my-auto p-2 rounded-2xl bg-[#00e6088b]">
+    <section className="grid place-items-center w-full max-w-105 h-full max-h-100 mx-auto my-auto p-2 rounded-2xl bg-[#0f13108b]">
       <div className="w-full flex flex-col items-center">
         <h3 className="text-center font-bold text-3xl">Login</h3>
         <form onSubmit={handleSubmit} action="" className="w-full max-w-96">
           <FormInput label="Your Email:" name="email" type="email" />
           <FormInput label="New Password:" name="password" type="password" />
           <div className="my-10 flex justify-center">
-            <button className=" btn btn-secondary w-full">Login</button>
+            <button className=" btn btn-secondary w-full italic">Login</button>
           </div>
         </form>
         <div>

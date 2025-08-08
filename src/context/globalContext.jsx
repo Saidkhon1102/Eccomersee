@@ -7,7 +7,7 @@ const initialState = () => {
   return localStorage.getItem("products")
     ? JSON.parse(localStorage.getItem("products"))
     : {
-        user: true,
+        user: false,
         products: [],
         likedProducts: [],
         totalAmount: 0,
