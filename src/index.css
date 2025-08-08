@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer components {
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+  #root {
+    @apply flex flex-col;
+  }
+  main {
+    @apply grow;
+  }
+}
+@utility container {
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
